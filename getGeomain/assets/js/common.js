@@ -1,0 +1,6 @@
+admin.common = {
+    initialize:function()
+    {
+    },
+       
+};

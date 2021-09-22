@@ -1,0 +1,177 @@
+/* basic previewKeyset setup - modify as desired */
+.ui-keyboard-keyset .ui-keyboard-button {
+	position: relative;
+}
+/* show mini-shift keyset with normal keyset */
+.ui-keyboard-keyset-normal .ui-keyboard-button::after {
+	content: attr(data-shift);
+	font-size: 0.6em;
+	color: #999;
+	position: absolute;
+	top: -1em;
+	left: 2px;
+	z-index: 200;
+}
+/* show mini-normal keyset with shift keyset */
+.ui-keyboard-keyset-shift .ui-keyboard-button::after {
+	content: attr(data-normal);
+	font-size: 0.6em;
+	color: #999;
+	position: absolute;
+	top: -1em;
+	left: 2px;
+	z-index: 200;
+}
+/* show mini-normal keyset with alt keyset */
+.ui-keyboard-keyset-alt .ui-keyboard-button::after {
+	content: attr(data-alt-shift);
+	font-size: 0.6em;
+	color: #999;
+	position: absolute;
+	top: -1em;
+	left: 2px;
+	z-index: 200;
+}
+/* show mini-alt-shift keyset with alt-shift keyset */
+.ui-keyboard-keyset-alt-shift .ui-keyboard-button::after {
+	content: attr(data-alt);
+	font-size: 0.6em;
+	color: #999;
+	position: absolute;
+	top: -1em;
+	left: 2px;
+	z-index: 200;
+}
+
+
+.geomain-search-sucmsg-modal-dialog-msg
+{
+	margin: 200px auto;
+	width: 350px;	
+	color:#fff; 
+}
+.geomain-search-sucmsg-modal-content-msg
+{
+	border-radius:0px; 
+	background-color: rgba(112,48,160,1)!important;
+	border:1px solid #ffe13e;
+}
+.geomain-msg-btn-got-it
+{
+	margin:0px auto;
+	display: table;	
+	background-color:#febf00;
+	color: #000;
+	font-weight: 700;
+	border:1px solid #7030a0;   
+	padding: 8px 90px;
+	font-size: 16px;
+	border-radius: 7px;
+
+}
+.geomain-support-modal-dialog
+{
+	margin: 200px auto;
+	width: 350px;
+}
+.geomain-support-modal-content
+{
+	border-radius:0px; 
+	background-color: rgba(112,48,160,0.7)!important;
+	border:1px solid #ffe13e;
+}
+.geo-main-error-wrapper {
+    padding: 10px 10px 0px 10px;
+    display: none;
+}
+.geomain-msg-btn-support
+{
+	margin:0px auto;
+	display: table;	
+	background-color:#febf00;
+	color: #000;
+	font-weight: 700;
+	border:1px solid #7030a0;   
+	padding: 8px 90px;
+	font-size: 16px;
+	border-radius: 7px;
+
+}
+.geomain-change-password-modal-dialog
+{
+	margin: 200px auto;
+	width: 350px;
+}
+.geomain-change-password-modal-content
+{
+	border-radius:0px; 
+	background-color: rgba(112,48,160,0.7)!important;
+	border:1px solid #ffe13e;
+}
+.geomain-msg-btn-change-password
+{
+	margin:0px auto;
+	display: table;	
+	background-color:#4267B2;
+	color: #fff;
+	font-weight: 700;
+	border:1px solid #7030a0;   
+	padding: 8px 90px;
+	font-size: 16px;
+	border-radius: 7px;
+
+}
+.geomain-support-msg-modal-dialog{
+
+	
+	margin: 200px auto;
+	width: 350px;	
+	color:#fff; 
+}
+.geomain-support--msg-modal-content{
+
+	border-radius:0px; 
+	background-color: rgba(112,48,160,1)!important;
+	border:1px solid #ffe13e;
+}
+.geo-main-support-msg_content p
+{
+	text-align:center;
+	font-size:16px;
+	margin-bottom:20px !important;   
+}
+
+
+
+.geomain-search-sucmsg-modal-dialog{
+
+	
+	margin: 200px auto;
+	width: 350px;	
+	color:#fff; 
+}
+.geomain-search-sucmsg-modal-content{
+
+	border-radius:0px; 
+	background-color: rgba(112,48,160,1)!important;
+	border:1px solid #ffe13e;
+}
+.geomain-search-sucmsg-modal-content p
+{
+	text-align:center;
+	font-size:16px;
+	margin-bottom:20px !important;   
+}
+.geomain-msg-btn-exchange
+{
+	margin:0px auto;
+	display: table;	
+	background-color:#febf00;
+	color: #000;
+	font-weight: 700;
+	border:1px solid #7030a0;   
+	padding: 8px 90px;
+	font-size: 16px;
+	border-radius: 7px;
+
+}
